@@ -51,5 +51,11 @@ require("lazy").setup({
     },
   },
 })
+require("mason").setup({
+  registries = {
+    "github:Crashdummyy/mason-registry",
+    "github:mason-org/mason-registry",
+  },
+})
 vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "#afc2e0", bg = "NONE" })
 vim.api.nvim_set_hl(0, "LineNrBelow", { fg = "#afc2e0", bg = "NONE" })
