@@ -6,5 +6,5 @@ debug
 foo.*
 *.log
 data
-local/*
-!local/init.lua
+*/local/*
+*/local/!init.lua
