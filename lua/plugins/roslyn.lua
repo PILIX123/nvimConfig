@@ -35,6 +35,7 @@ return {
             "Targets",
             "Microsoft.NET.Sdk.Razor.DesignTime.targets"
           ),
+          "--stdio",
         },
         ---@diagnostic disable-next-line: missing-fields
         config = {
