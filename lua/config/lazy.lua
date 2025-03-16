@@ -58,3 +58,5 @@ require("mason").setup({
   },
 })
 require("local")
+vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "#afc2e0", bg = "NONE" })
+vim.api.nvim_set_hl(0, "LineNrBelow", { fg = "#afc2e0", bg = "NONE" })
