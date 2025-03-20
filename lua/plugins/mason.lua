@@ -6,6 +6,7 @@ return {
       "codelldb",
       "html-lsp",
       "lua-language-server",
+      "neocmakelsp",
       "prettierd",
       "pyright",
       "roslyn",

@@ -5,6 +5,7 @@ return {
       "bash",
       "c",
       "c_sharp",
+      "cmake",
       "css",
       "diff",
       "html",
