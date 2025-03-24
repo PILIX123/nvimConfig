@@ -5,6 +5,10 @@ return {
       filtered_items = {
         hide_dotfiles = true,
         hide_gitignored = false,
+        always_show = {
+          ".gitignore",
+          ".cargo",
+        },
       },
     },
   },
