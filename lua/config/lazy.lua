@@ -52,5 +52,6 @@ require("lazy").setup({
   },
 })
 require("local")
+
 vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "#afc2e0", bg = "NONE" }) -- Needs to be here because options load before theme and theme then overwrites the settings
 vim.api.nvim_set_hl(0, "LineNrBelow", { fg = "#afc2e0", bg = "NONE" })
