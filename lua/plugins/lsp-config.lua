@@ -7,11 +7,9 @@ return {
           ["rust-analyzer"] = {
             checkOnSave = {
               allTargets = false,
-              extraEnv = {
-                CARGO_CFG_NO_BUILD_RS = "0",
-              },
             },
             cargo = {
+              features = { "skip-build-script" },
               runBuildScripts = false,
             },
           },
