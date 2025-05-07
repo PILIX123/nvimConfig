@@ -4,4 +4,4 @@
 -- vim.opt.tabstop = 4
 -- vim.opt.shiftwidth = 4
 -- vim.opt.expandtab = true
-vim.diagnostic.config({ virtual_lines = { current_line = true } })
+vim.diagnostic.config({ virtual_text = true, virtual_lines = { current_line = true } })
