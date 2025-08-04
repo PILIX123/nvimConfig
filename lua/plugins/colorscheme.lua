@@ -12,11 +12,13 @@ return {
         lighter_blue = "#4f88B0",
         light_rose = "#d16d9e",
         coral = "#E06C75",
+        light_teal = "#56B6C2",
       },
       highlights = {
         ["@lsp.type.variable"] = { fg = "$coral" },
         ["@lsp.typemod.parameter.functionScope.c"] = { fg = "$light_rose", fmt = "italic" },
         ["@lsp.typemod.variable.globalScope.c"] = { fg = "$lighter_blue" },
+        ["@lsp.typemod.variable.fileScope.c"] = { fg = "light_teal" },
         ["@lsp.type.property"] = { fg = "$lighter_green" },
       },
     })
