@@ -7,6 +7,7 @@ return {
         -- By loading as a dependencies, we ensure that we are available to set
         -- the handlers for roslyn
         "tris203/rzls.nvim",
+        branch = "pullDiags",
         config = function()
           ---@diagnostic disable-next-line: missing-fields
           require("rzls").setup({})
@@ -15,7 +16,7 @@ return {
     },
     config = function()
       require("roslyn").setup({
-        args = {
+        cmd = {
           "--logLevel=Information",
           "--extensionLogDirectory=" .. vim.fs.dirname(vim.lsp.get_log_path()),
           "--razorSourceGenerator=" .. vim.fs.joinpath(
@@ -36,6 +37,8 @@ return {
             "Microsoft.NET.Sdk.Razor.DesignTime.targets"
           ),
           "--stdio",
+          "--extension=",
+          "C:\\Users\\pierreluc.robitaille\\.vscode\\extensions\\ms-dotnettools.csharp-2.72.34-win32-x64\\.razorExtension\\Microsoft.VisualStudioCode.RazorExtension.dll"
         },
         ---@diagnostic disable-next-line: missing-fields
         config = {
