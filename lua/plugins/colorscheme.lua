@@ -18,7 +18,7 @@ return {
         ["@lsp.type.variable"] = { fg = "$coral" },
         ["@lsp.typemod.parameter.functionScope.c"] = { fg = "$light_rose", fmt = "italic" },
         ["@lsp.typemod.variable.globalScope.c"] = { fg = "$lighter_blue" },
-        ["@lsp.typemod.variable.fileScope.c"] = { fg = "light_teal" },
+        ["@lsp.typemod.variable.fileScope.c"] = { fg = "$light_teal" },
         ["@lsp.type.property"] = { fg = "$lighter_green" },
         ["@variable.python"] = { fg = "$coral" },
         ["@variable.parameter.python"] = { fg = "$light_rose", fmt = "italic" },
