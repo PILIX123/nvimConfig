@@ -7,7 +7,6 @@ return {
         -- By loading as a dependencies, we ensure that we are available to set
         -- the handlers for roslyn
         "tris203/rzls.nvim",
-        branch = "pullDiags",
         config = function()
           ---@diagnostic disable-next-line: missing-fields
           require("rzls").setup({})
@@ -38,7 +37,7 @@ return {
           ),
           "--stdio",
           "--extension=",
-          "C:\\Users\\pierreluc.robitaille\\.vscode\\extensions\\ms-dotnettools.csharp-2.72.34-win32-x64\\.razorExtension\\Microsoft.VisualStudioCode.RazorExtension.dll"
+          "C:\\Users\\pierreluc.robitaille\\.vscode\\extensions\\ms-dotnettools.csharp-2.72.34-win32-x64\\.razorExtension\\Microsoft.VisualStudioCode.RazorExtension.dll",
         },
         ---@diagnostic disable-next-line: missing-fields
         config = {
