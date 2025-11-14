@@ -5,6 +5,7 @@ local mason_config = {
   },
   ensure_installed = {
     "autopep8",
+    "black",
     "codelldb",
     "html-lsp",
     "lua-language-server",
@@ -16,6 +17,7 @@ local mason_config = {
     "rzls",
     "shfmt",
     "stylua",
+    "isort",
   },
 }
 return {
