@@ -14,7 +14,7 @@ return {
   opts = {
     -- Your settings go here
     search = {
-      cwd = {
+      cwd_windows = {
         command = "$FD bin//python.exe$ $CWD --full-path --color never -HI -a -L",
       },
     },
