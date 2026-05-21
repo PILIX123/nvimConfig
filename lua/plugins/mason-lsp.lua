@@ -14,7 +14,6 @@ local mason_config = {
     "pyright",
     "roslyn",
     "rust-analyzer",
-    "rzls",
     "shfmt",
     "stylua",
     "isort",
