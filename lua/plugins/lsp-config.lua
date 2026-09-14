@@ -1,7 +1,21 @@
+vim.filetype.add({
+  extension = {
+    bb = "bitbake",
+    bbappend = "bitbake",
+    bbclass = "bitbake",
+    inc = "bitbake", -- optional, .inc files are also bitbake
+  },
+})
 return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
+      bitbake = {
+        cmd = { "bitbake-language-server" },
+        filetypes = { "bitbake" },
+        root_dir = require("lspconfig.util").root_pattern("build", "oe-init-build-env", ".git"),
+        single_file_support = true,
+      },
       clangd = {
         cmd = {
           "clangd",
